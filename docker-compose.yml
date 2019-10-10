@@ -44,10 +44,10 @@ services:
             - 67/udp
             - 68/tcp
             - 68/udp
-            - 81:80/tcp
+            - 82:80/tcp
             - 443/tcp
             - 853/tcp
-            - 3000/tcp
+            - 3000:3000
 
         hostname: adguard-home-dns
         dns:
