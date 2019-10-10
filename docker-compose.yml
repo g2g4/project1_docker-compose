@@ -34,10 +34,6 @@ services:
         cap_add:
             - NET_ADMIN
 
-        volumes:
-            - '/volume1/docker/adguard-home/work:/opt/adguardhome/work'
-            - '/volume1/docker/adguard-home/conf:/opt/adguardhome/conf'
-
         ports:
             - 53/tcp
             - 192.168.50.51:53:53/udp
