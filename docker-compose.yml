@@ -47,7 +47,7 @@ services:
             - 81:80/tcp
             - 443/tcp
             - 853/tcp
-            - 3000/tcp
+            - 3000:3000
 
         hostname: adguard-home-dns
         dns:
